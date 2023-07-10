@@ -1,0 +1,31 @@
+.my_btn {
+    background-color: white;
+    color: blue;
+    border : 1px solid blue;
+    margin: 10px auto;
+    padding: 10px 30px;
+  }
+  .my_btn:hover {
+    color: white;
+    background: blue;
+    
+  }
+  .my_btn:active {
+    background: hotpink;
+    color: white;
+  }
+
+
+  .dwdw-container {
+    margin: 10px auto;
+    padding: 20px;
+    border: 1px solid blue;
+  }
+  
+  .tsx-cc {
+    color : blue
+  }
+
+  .dwww-container {
+    background-color: gainsboro;
+  }

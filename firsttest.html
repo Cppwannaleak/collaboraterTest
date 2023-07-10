@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<body>
+    <div id="firsttest" class="tabcontent">
+        <div class="dwww-container">
+            <div class="dwdw-container">
+                <h1 class="tsx-cc">X axis control</h1>
+                <button class="my_btn" onclick="SendJogcommand('X10','XYfeedrate')" >X + 10</button>
+                <button class="my_btn" onclick="SendJogcommand('X-10','XYfeedrate')" >X - 10</button>
+            </div>
+            <div class="dwdw-container">
+                <h1 class="tsx-cc">Y axis control</h1>
+                <button class="my_btn" onclick="SendJogcommand('Y10','XYfeedrate')" >Y + 10</button>
+                <button class="my_btn" onclick="SendJogcommand('Y-10','XYfeedrate')" >Y - 10</button>
+            </div>
+            <div class="dwdw-container">
+                <h1 class="tsx-cc">Z axis control</h1>
+                <button class="my_btn" onclick="SendJogcommand('Z10','XYfeedrate')" >Z + 10</button>
+                <button class="my_btn" onclick="SendJogcommand('Z-10','XYfeedrate')" >Z - 10</button>
+            </div>
+            <div class="dwdw-container">
+                <h1 class="tsx-cc">XYZ total axis control</h1>
+                <button class="my_btn" onclick="SendJogcommand('X10Y10Z10','XYfeedrate')" >XYZ + 10</button>
+                <button class="my_btn" onclick="SendJogcommand('X-10Y-10Z-10','XYfeedrate')" >XYZ - 10</button>
+            </div>
+            <div class="dwdw-container">
+                <button class="my_btn" onclick="SendJogcommand('X-10X-20', 'XYfeedrate')">X-10X-20</button>
+            </div>
+        </div>
+    </div>
+</body>
